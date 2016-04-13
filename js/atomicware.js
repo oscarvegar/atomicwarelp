@@ -3,7 +3,7 @@ angular.module('AtomicwareApp', [])
 	$scope.contacto = {};
 	$scope.enviar = function(){
 		console.log($scope.contacto);
-		$http.post("http://localhost:8888/contacto",$scope.contacto)
+		$http.post("http://atomicware.mx:8888/contacto",$scope.contacto)
 		.success(function(res){
 			console.info(res);
 			alert("Gracias, en breve nos pondremos en contacto contigo.")
