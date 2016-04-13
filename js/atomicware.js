@@ -10,3 +10,6 @@ angular.module('AtomicwareApp', [])
 		}).error(function(err){
 			alert("Ocurrió un error intenta de nuevo.")
 		});
+
+	}
+});  
